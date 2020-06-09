@@ -13,7 +13,8 @@ uspto_testT100.csv.bz2_xab - part b of uspto_testT.csv augmeted 100 times  (join
 uspto_testT100.csv.can.bz2 - canonised version of the same file
 
 result_uspto_testT100.csv.bz2_xaa - part a
-result_uspto_testT100.csv.bz2_xab - part b of result_uspto_testT100.csv (join both files before decompressing)
+result_uspto_testT100.csv.bz2_xab - part b
+result_uspto_testT100.csv.bz2_xac - part c of result_uspto_testT100.csv (join both files before decompressing)
 result_uspto_testT100.csv.can.bz2 - canonised version of the same file
 
 uspto_trainT.csv - processed training set
