@@ -7,18 +7,24 @@ Dai, H.; Li, C.; Coley, C.; Dai, B.; Song, L. In Retrosynthesis Prediction with 
 The files were processed to remove reactions which contained no products or just single ions as reactants (e.g., US08163899B2,>>[OH2:11], US06048982,CC(=O)OCCCCC[I:22]>>[I-:22], US07425593B2,>>[K:12], US08114877B2,CC[I:13]>>[I-:13]).
 We also eliminated such reactions as well as those where reactants had less than five atoms in total, since these were unlikely to be correct reactions.
 
-uspto_testT.csv - processed test set
-uspto_testT100.csv.bz2_xaa - part a
-uspto_testT100.csv.bz2_xab - part b of uspto_testT.csv augmeted 100 times  (join both files before decompressing)
-uspto_testT100.csv.can.bz2 - canonised version of the same file
+All files are compressed using xz - (use e.g., in MacPort ,install xz )
 
-result_uspto_testT100.csv.bz2_xaa - part a
-result_uspto_testT100.csv.bz2_xab - part b
-result_uspto_testT100.csv.bz2_xac - part c of result_uspto_testT100.csv (join both files before decompressing)
-result_uspto_testT100.csv.can.bz2 - canonised version of the same file
+uspto_testT.csv.xz - processed test set
 
-uspto_trainT.csv - processed training set
-uspto_valT.csv - processed validation set
-uspto_train_valTx5Shuff.csv.bz2 - combined training + validation set augmented 5 times
+uspto_testT100.csv.xz  - augmeted 100 times, too large to be uploaded and thus splitted at:
+uspto_testT100.csv.xz_a 
+uspto_testT100.csv.xz_b 
 
-These sets and results were calculated as described in our pre-print, which is submitted for the review.
+uspto_testT100.csv.can.xz - canonised version of the same file
+
+result_uspto_testT100.csv.xz - results predicted by the model: again, to big and thus splitted at:
+result_uspto_testT100.csv.xz_a 
+result_uspto_testT100.csv.xz_b
+
+result_uspto_testT100.csv.can.xz - canonised version of the same file
+
+uspto_trainT.csv.xz - processed training set
+uspto_valT.csv.xz - processed validation set
+uspto_train_valTx5Shuff.csv.zz - combined training + validation set, which was augmented 5 times
+
+These sets are described in our pre-print, which is submitted for the review.
