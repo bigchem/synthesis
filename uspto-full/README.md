@@ -9,23 +9,6 @@ We also eliminated reactions where reactants had less than five atoms in total, 
 
 All files are compressed using xz (to use it on Mac install xz in MacPort; xz is available on Ubuntu by default )
 
-uspto_testT.csv.xz - processed test set
+These sets and results are described in a pre-print, which is submitted for a review.
 
-uspto_testT100.csv.xz  - augmeted 100 times test set: it is too large to be uploaded and thus it is splitted to:
-uspto_testT100.csv.xz_a 
-uspto_testT100.csv.xz_b 
-
-uspto_testT100.csv.can.xz - canonised version of the same file
-
-result_uspto_testT100.csv.xz - results predicted by the model for the test file: again, the file is too big and thus it is splitted to:
-result_uspto_testT100.csv.xz_a 
-result_uspto_testT100.csv.xz_b
-result_uspto_testT100.csv.xz_c
-
-result_uspto_testT100.csv.can.xz - canonised version of the result file
-
-uspto_trainT.csv.xz - processed training set
-uspto_valT.csv.xz - processed validation set
-uspto_train_valTx5Shuff.csv.zz - combined training + validation set, which was augmented 5 times and used for model development.
-
-These sets and results are described in our pre-print, which is submitted for a review.
+Tetko, I. V.; Karpov, P.; Van Deursen, R.; Godin, G. Augmented Transformer for Direct and Single-Step Retrosynthesis Predictions Overperforms All Published Approaches. Nat. Commun. 2020, submitted.
