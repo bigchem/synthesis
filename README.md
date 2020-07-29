@@ -41,5 +41,5 @@ perl compare.pl patents_test100.csv.can result_patents_test100.csv.can 1
 
 perl compare.pl patents_test100.csv.can result_patents_test100.csv.can 2
 
-        will calculates top-2 perfrormance and so on. There are other processing options, which are listed in the script output. 
+        will calculates top-2 perfromance and so on. There are other processing options, which are listed in the script output. 
 
