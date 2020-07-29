@@ -14,6 +14,6 @@ The files were processed to remove reactions which contained no products or just
 
 All files are compressed using xz (to use it on Mac install xz in MacPort; xz is available on Ubuntu by default )
 
-These sets and results obtained with these files are described in a pre-print, which is submitted for a review.
+Results obtained with these files are described in a pre-print, which is submitted for a review.
 
 Tetko, I. V.; Karpov, P.; Van Deursen, R.; Godin, G. Augmented Transformer for Direct and Single-Step Retrosynthesis Predictions Overperforms All Published Approaches. Nat. Commun. 2020, submitted.
