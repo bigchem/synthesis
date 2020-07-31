@@ -27,7 +27,7 @@ All files are compressed using xz (to use it on Mac install, e.g. xz in MacPort;
 
 These sets and results are described in our pre-print, which is submitted for a review now.
 
-The USPTO-Full, USPTO-MIT results files were too large (>100MB in archive) to be uploaded to GitHub and thus we uploaded a subset of the test file with augmentation 20x instead of 100x. The full test files can be received on the request. 
+The USPTO-Full, USPTO-MIT results files were too large (>100MB in archive) to be uploaded to GitHub and thus we uploaded a subset of the test file with augmentation 20x instead of 100x. The full test files can be received on the request from the authors. 
 
 The accuracy of model predictions using 20x and 100x augmentations was very similar and within 0.1% for Top-1 predictions. 
 
