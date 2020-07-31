@@ -31,7 +31,7 @@ The USPTO-Full, USPTO-MIT results files were too large (>100MB in archive) to be
 
 The accuracy of model predictions using 20x and 100x augmentations was very similar and within 0.1% for Top-1 predictions. 
 
-The models will be made after the acceptance of the article.
+The models will be made available after the acceptance of the article.
 
 Script compare.pl can be used to calculate statsitical performance using canonical files, e.g.
 
