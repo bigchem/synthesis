@@ -15,7 +15,7 @@ Jin, W.; Coley, C.; Barzilay, R.; Jaakkola, T. Predicting Organic Reaction Outco
 USPTO-full
 Dai, H.; Li, C.; Coley, C.; Dai, B.; Song, L. In Retrosynthesis Prediction with Conditional Graph Logic Network, Advances in Neural Information Processing Systems 32, Wallach, H.; Larochelle, H.; Beygelzimer, A.; Alché-Buc, F.; Fox, E.; Garnett, R., Eds. Curran Associates, Inc: 2019; pp 8872-8882 
 
-For the latter set we remove reactions which contained no products or just single ions as reactants (e.g., US08163899B2,>>[OH2:11], US06048982,CC(=O)OCCCCC[I:22]>>[I-:22], US07425593B2,>>[K:12], US08114877B2,CC[I:13]>>[I-:13]). We also eliminated reactions where reactants had less than five atoms in total, since these were likely to be incorrect reactions.
+For the latter set we remove reactions, which contained no products or just single ions as reactants (e.g., US08163899B2,>>[OH2:11], US06048982,CC(=O)OCCCCC[I:22]>>[I-:22], US07425593B2,>>[K:12], US08114877B2,CC[I:13]>>[I-:13]). We also eliminated reactions where reactants had less than five atoms in total, since these were likely to be incorrect reactions.
 
 The modified training and test set are
 uspto_trainT.csv
@@ -23,7 +23,7 @@ uspto_testT.csv
 
 The augmened versions of these files were used for  training (5x times) and testing (100x times) of the models.
 
-All files are compressed using xz (to use it on Mac install, e.g. xz in MacPort; xz is available on some linux systems, e.g. Ubuntu by default )
+All files are compressed using xz (to use it on Mac install, e.g. xz in MacPort; xz is available on some Linux systems, e.g. Ubuntu by default )
 
 These sets and results are described in our pre-print, which is submitted for a review now.
 
@@ -33,7 +33,7 @@ The accuracy of model predictions using 20x and 100x augmentations was very simi
 
 The models will be made available after the acceptance of the article.
 
-Script compare.pl can be used to calculate statsitical performance using canonical files, e.g.
+Script compare.pl can be used to calculate statistical performance using canonical files, e.g.
 
 perl compare.pl patents_test100.csv.can result_patents_test100.csv.can 1
 
@@ -41,5 +41,5 @@ perl compare.pl patents_test100.csv.can result_patents_test100.csv.can 1
 
 perl compare.pl patents_test100.csv.can result_patents_test100.csv.can 2
 
-        will calculates top-2 perfromance and so on. There are other processing options, which are listed in the script output. 
+        will calculates top-2 performance and so on. There are other processing options, which are listed in the script output. 
 
