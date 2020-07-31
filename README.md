@@ -17,7 +17,7 @@ Dai, H.; Li, C.; Coley, C.; Dai, B.; Song, L. In Retrosynthesis Prediction with 
 
 For the latter set we remove reactions, which contained no products or just single ions as reactants (e.g., US08163899B2,>>[OH2:11], US06048982,CC(=O)OCCCCC[I:22]>>[I-:22], US07425593B2,>>[K:12], US08114877B2,CC[I:13]>>[I-:13]). We also eliminated reactions where reactants had less than five atoms in total, since these were likely to be incorrect reactions.
 
-The modified training and test set are
+The modified training and test sets are
 uspto_trainT.csv
 uspto_testT.csv
 
@@ -27,7 +27,7 @@ All files are compressed using xz (to use it on Mac install, e.g. xz in MacPort;
 
 These sets and results are described in our pre-print, which is submitted for a review now.
 
-The USPTO-Full, USPTO-MIT results files were too large (>100MB in archive) to be uploaded to GitHub and thus we uploaded a subset of the test file with augmentation 20x instead of 100x. The processed canonical results files with x100, which were much better compressed, are included. The full test files can be received on the request. 
+The USPTO-Full, USPTO-MIT results files were too large (>100MB in archive) to be uploaded to GitHub and thus we uploaded a subset of the test file with augmentation 20x instead of 100x. The full test files can be received on the request. 
 
 The accuracy of model predictions using 20x and 100x augmentations was very similar and within 0.1% for Top-1 predictions. 
 
